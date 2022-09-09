@@ -15,6 +15,7 @@ module.exports = {
         sourceType: 'module',
     },
     rules: {
+        indent: 'off',
         'react/react-in-jsx-scope': 'off',
         'react/prop-types': 'off',
         'react/jsx-props-no-spreading': 'off',
@@ -39,6 +40,5 @@ module.exports = {
                 unnamedComponents: 'arrow-function',
             },
         ],
-        'prettier/prettier': 'warn',
     },
 };
